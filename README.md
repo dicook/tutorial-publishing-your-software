@@ -1,7 +1,5 @@
 # Publishing your software
 
-<img src="images/website_image.png" align="center" width="600" />
-
 Website: [https://dicook.github.io/tutorial_publishing_your_software/](https://dicook.github.io/tutorial_publishing_your_software/)
 
 This tutorial is for data analysts and statisticians who work regularly write 
