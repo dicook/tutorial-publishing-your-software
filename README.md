@@ -5,8 +5,8 @@ Website: [https://dicook.github.io/tutorial_publishing_your_software/](https://d
 This tutorial is for data analysts and statisticians who work regularly write 
 software in their research. It will describe approaches for writing a publication 
 focused on describing the software. This content will primarily focus on R software, 
-but the approaches would be similar to other software written in other languages.  There will be an opportunity to show your own software 
-and get advice on how to write it up. 
+but the approaches would be similar to other software written in other languages.  
+There will be an opportunity to show your own software and get advice on how to write it up. 
 
 **Presenter**: [Dianne Cook](https://www.dicook.org), a Professor of 
 Statistics at Monash University in Melbourne, Australia, is a global leader
@@ -23,18 +23,27 @@ and Visualisation Section of the [Statistical Society of Australia](https://www.
 
 **Background**: You should have a basic understanding of R, be familiar 
 with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it 
-available on a public archive such as [CRAN](https://cran.r-project.org).
+available on a public archive such as [CRAN](https://cran.r-project.org). This would be a good 
+tutorial for research students to join. 
 
 ## Structure of tutorial
 
 Session 1:
 
-    - Outlets for publishing software
-    - Structure of a software article
+    - Comparison of common outlets for publishing software: Journal of Statistical Software, the R Journal, Journal of Open Source Software, Methods of Ecology and Evolution, Genome Biology
+    - Structure and purpose of a software article:
+        - What is original?
+        - Why is this different from just supplementary material?
+        - Motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
+        - Examples/applications/speed comparisons/benchmarking
+        - Workflow diagrams
+        - Overview of functions/bones of the software
 
 Session 2: 
 
-    - 
+    - Review some examples of published software: good and bad examples
+    - Open source practices: version control, zenodo/DOI, GitHub releases
+    - Share and discuss your own software
 
 
 Copyright: Dianne Cook 2025
