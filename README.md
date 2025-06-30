@@ -19,7 +19,7 @@ Statistics, and the R Journal. She has served as a Board Member of the
 R Foundation and is currently the co-chair of the Statistical Computing 
 and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
-**Presenter**: [Font Kar](https://fontikar.github.io)
+**Presenter**: [Fonti Kar](https://fontikar.github.io)
 
 **Background**: You should have a basic understanding of R, be familiar 
 with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it 
