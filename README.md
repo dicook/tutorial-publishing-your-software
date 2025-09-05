@@ -46,7 +46,7 @@ Session 2:
     - Share and discuss your own software
 
 
-Copyright: Dianne Cook 2025
+Copyright: Dianne Cook and Fonti Kar, 2025
 
 These materials are licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
