@@ -28,22 +28,59 @@ tutorial for research students to join.
 
 ## Structure of tutorial
 
-Session 1:
+Session 1: Where, why, how
 
-    - Comparison of common outlets for publishing software: Journal of Statistical Software, the R Journal, Journal of Open Source Software, Methods of Ecology and Evolution, Genome Biology
-    - Structure and purpose of a software article:
-        - What is original?
-        - Why is this different from just supplementary material?
-        - Motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
-        - Examples/applications/speed comparisons/benchmarking
-        - Workflow diagrams
-        - Overview of functions/bones of the software
+    - Setting the scene: Why publish software as an article?
+    
+        - Value of software papers in academic careers (citations, recognition, tenure/promotion)
+        - Benefits for the community (visibility, credibility, discoverability).
+        - Why is a paper better than supplementary material for a regular paper?
+        - Common outlets for publishing software: 
+        
+            - Journal of Statistical Software 
+            - the R Journal 
+            - Journal of Open Source Software 
+            - Methods of Ecology and Evolution 
+            - Genome Biology 
+            - Similarities and differences and metrics
+            - Review criteria
 
-Session 2: 
+    - Writing the article
+    
+        - Problem statement and motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
+        - Key features of the software.
+        - Design/implementation details.
+        - Examples/use cases/applications/speed comparisons/benchmarking
+        - Handling big data, or private data.
+        - Handling slow computation/reproducibility.
+        - Add a workflow diagram?
+        - Tips for figures.
+        - Reproducibility of your article.
+        - Writing a cover letter.
 
-    - Review some examples of published software: good and bad examples
-    - Open source practices: version control, zenodo/DOI, GitHub releases
-    - Share and discuss your own software
+Session 2: Start preparing
+
+    - Small group activity: Review some examples of articles of published software
+
+        - Structure
+        - Motivation
+        - Functionality
+        - Usefulness in getting started
+
+    - Preparing Your Software for Publication
+    
+        - Open source practices
+        - Minimum standards: clear documentation, license, installation instructions.
+        - Tests and reproducibility: automated testing, example datasets, vignettes/tutorials.
+        - Version control, zenodo/DOI, GitHub releases
+        - Writing a good README
+        - The submission process (journal-specific requirements)
+        - Responding to reviewer comments—common issues (docs not clear, lack of tests).
+
+    - Hands-on activity: 
+        - Draft a short abstract for your own software.
+        - Sketch an outline for an article on your own software.
+        - Identify a target journal.
 
 
 Copyright: Dianne Cook and Fonti Kar, 2025
