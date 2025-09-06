@@ -5,8 +5,9 @@ Website: [https://dicook.github.io/tutorial_publishing_your_software/](https://d
 This tutorial is for data analysts and statisticians who work regularly write 
 software in their research. It will describe approaches for writing a publication 
 focused on describing the software. This content will primarily focus on R software, 
-but the approaches would be similar to other software written in other languages.  
-There will be an opportunity to show your own software and get advice on how to write it up. 
+but the approaches would be similar to other software written in other languages. 
+There will group activities and individual activities to help you get started with
+writing an article on your own software. 
 
 **Presenter**: [Dianne Cook](https://www.dicook.org), a Professor of 
 Statistics at Monash University in Melbourne, Australia, is a global leader
