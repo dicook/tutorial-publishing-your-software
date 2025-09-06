@@ -30,14 +30,11 @@ tutorial for research students to join.
 ## Structure of tutorial
 
 Session 1: Where, why, how
-
     - Setting the scene: Why publish software as an article?
-    
         - Value of software papers in academic careers (citations, recognition, tenure/promotion)
         - Benefits for the community (visibility, credibility, discoverability).
         - Why is a paper better than supplementary material for a regular paper?
         - Common outlets for publishing software: 
-        
             - Journal of Statistical Software 
             - the R Journal 
             - Journal of Open Source Software 
@@ -45,9 +42,7 @@ Session 1: Where, why, how
             - Genome Biology 
             - Similarities and differences and metrics
             - Review criteria
-
     - Writing the article
-    
         - Problem statement and motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
         - Key features of the software.
         - Design/implementation details.
@@ -58,18 +53,14 @@ Session 1: Where, why, how
         - Tips for figures.
         - Reproducibility of your article.
         - Writing a cover letter.
-
+  
 Session 2: Start preparing
-
     - Small group activity: Review some examples of articles of published software
-
         - Structure
         - Motivation
         - Functionality
         - Usefulness in getting started
-
     - Preparing Your Software for Publication
-    
         - Open source practices
         - Minimum standards: clear documentation, license, installation instructions.
         - Tests and reproducibility: automated testing, example datasets, vignettes/tutorials.
@@ -77,7 +68,6 @@ Session 2: Start preparing
         - Writing a good README
         - The submission process (journal-specific requirements)
         - Responding to reviewer comments—common issues (docs not clear, lack of tests).
-
     - Hands-on activity: 
         - Draft a short abstract for your own software.
         - Sketch an outline for an article on your own software.
