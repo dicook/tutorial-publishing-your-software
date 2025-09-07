@@ -20,7 +20,8 @@ Statistics, and the R Journal. She has served as a Board Member of the
 R Foundation and is currently the co-chair of the Statistical Computing 
 and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
-**Presenter**: [Fonti Kar](https://fontikar.github.io)
+**Presenter**: [Fonti Kar](https://fontikar.github.io), a postdoctoral research fellow at The Australian National University and has a background in evolutionary biology, quantitative biology and open-source tool building. She is interested in the sources of biological variability in plant and animal breeding where she leverages mixed modelling techniques to solve agricultural problems. Fonti is currently working on the Analytics for Australian Grains Industry project and is an advocate for openness, in science and in code. She has developed numerous software to support ecological research and maintains the R package 'austraits'. Fonti is passionate about data science education and empowering others with collaborative coding and package building skills through her committee role on the Statistical Computing 
+and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
 **Background**: You should have a basic understanding of R, be familiar 
 with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it 
@@ -46,12 +47,12 @@ Session 1: Where, why, how
         
 - Writing the article
     - Problem statement and motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
-    - Key features of the software.
-    - Design/implementation details.
+    - Key features of the software
+    - Design/implementation details
+    - Overview of workflow
     - Examples/use cases/applications/speed comparisons/benchmarking
     - Handling big data, or private data.
     - Handling slow computation/reproducibility.
-    - Add a workflow diagram?
     - Tips for figures.
     - Reproducibility of your article.
     - Writing a cover letter.
@@ -66,10 +67,10 @@ Session 2: Start preparing
     
 - Preparing Your Software for Publication
     - Open source practices
+        - Version control, zenodo/DOI, GitHub releases  
     - Minimum standards: clear documentation, license, installation instructions.
-    - Tests and reproducibility: automated testing, example datasets, vignettes/tutorials.
-    - Version control, zenodo/DOI, GitHub releases
     - Writing a good README
+    - Tests and reproducibility: automated testing, example datasets, vignettes/tutorials.
     - The submission process (journal-specific requirements)
     - Responding to reviewer comments—common issues (docs not clear, lack of tests).
     
