@@ -1,6 +1,6 @@
 # Publishing your software
 
-Website: [https://dicook.github.io/tutorial_publishing_your_software/](https://dicook.github.io/tutorial_publishing_your_software/)
+Website: [https://dicook.github.io/tutorial-publishing-your-software/](https://dicook.github.io/tutorial-publishing-your-software/)
 
 This tutorial is for data analysts and statisticians who work regularly write 
 software in their research. It will describe approaches for writing a publication 
@@ -57,7 +57,7 @@ Session 1: Where, why, how
     - Reproducibility of your article.
     - Writing a cover letter.
   
-Session 2: Start preparing
+Session 2: Prepare to write your article
 
 - Small group activity: Review some examples of articles of published software
     - Structure
