@@ -4,10 +4,7 @@ Website: [https://dicook.github.io/tutorial-publishing-your-software/](https://d
 
 This tutorial is for data analysts and statisticians who work regularly write 
 software in their research. It will describe approaches for writing a publication 
-focused on describing the software. This content will primarily focus on R software, 
-but the approaches would be similar to other software written in other languages. 
-There will group activities and individual activities to help you get started with
-writing an article on your own software. 
+focused on describing the software. This content will primarily focus on R software, but the approaches would be similar to other software written in other languages. There will group activities and individual activities to help you get started with writing an article on your own software. 
 
 **Presenter**: [Dianne Cook](https://www.dicook.org), a Professor of 
 Statistics at Monash University in Melbourne, Australia, is a global leader
@@ -20,13 +17,11 @@ Statistics, and the R Journal. She has served as a Board Member of the
 R Foundation and is currently the co-chair of the Statistical Computing 
 and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
-**Presenter**: [Fonti Kar](https://fontikar.github.io), a postdoctoral research fellow at The Australian National University and has a background in evolutionary biology, quantitative biology and open-source tool building. She is interested in the sources of biological variability in plant and animal breeding where she leverages mixed modelling techniques to solve agricultural problems. Fonti is currently working on the Analytics for Australian Grains Industry project and is an advocate for openness, in science and in code. She has developed numerous software to support ecological research and maintains the R package 'austraits'. Fonti is passionate about data science education and empowering others with collaborative coding and package building skills through her committee role on the Statistical Computing 
+**Presenter**: [Fonti Kar](https://fontikar.github.io), a teaching fellow at Monash University and has a background in evolutionary biology, quantitative biology and open-source tool building. She is interested in the sources of biological variability in plant and animal breeding where she leverages mixed modelling techniques to solve agricultural problems. Fonti is currently working on the Analytics for Australian Grains Industry project and is an advocate for openness, in science and in code. She has developed numerous software to support ecological research and maintains the R package 'austraits'. Fonti is passionate about data science education and empowering others with collaborative coding and package building skills through her committee role on the Statistical Computing 
 and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
 **Background**: You should have a basic understanding of R, be familiar 
-with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it 
-available on a public archive such as [CRAN](https://cran.r-project.org). This would be a good 
-tutorial for research students to join. 
+with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it available on a public archive such as [CRAN](https://cran.r-project.org). This would be a good tutorial for research students to join. 
 
 ## Structure of tutorial
 
@@ -80,7 +75,7 @@ Session 2: Prepare to write your article
     - Identify a target journal.
 
 
-Copyright: Dianne Cook and Fonti Kar, 2025
+Copyright: Dianne Cook and Fonti Kar, 2026
 
 These materials are licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].

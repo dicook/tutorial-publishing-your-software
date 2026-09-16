@@ -1,0 +1,143 @@
+---
+title: "WOMBAT 2025 Tutorial"
+subtitle: "Publishing your software"
+author: 
+  - name: "Dianne Cook, Fonti Kar"
+institute: "Department of Econometrics and Business Statistics"
+format: 
+  revealjs:
+    theme: 
+      - default 
+      - custom.scss
+    width: 1600
+    height: 900
+    margin: 0.1
+    slide-number: c/t
+    embed-resources: true
+code-line-numbers: false
+code-fold: true
+message: false
+highlight-style: pygments
+title-slide-attributes:
+  data-background-color: "#006dae"
+  data-background-opacity: "0.5"
+footer: "[https://numbat-tutorials.github.io/tutorial-publishing-your-software](https://numbat-tutorials.github.io/tutorial-publishing-your-software)"
+---
+
+```{r, include = FALSE}
+#| label: libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(stringr)
+library(forcats)
+library(colorspace)
+library(patchwork)
+library(conflicted)
+conflicts_prefer(dplyr::filter)
+conflicts_prefer(dplyr::select)
+conflicts_prefer(dplyr::slice)
+conflicts_prefer(dplyr::rename)
+conflicts_prefer(dplyr::mutate)
+conflicts_prefer(dplyr::summarise)
+```
+
+```{r, include = FALSE}
+#| label: options-for-nice-slides
+options(width = 200)
+knitr::opts_chunk$set(
+  fig.width = 5,
+  fig.height = 5,
+  fig.align = "center",
+  dev.args = list(bg = 'transparent'),
+  out.width = "100%",
+  fig.retina = 5,
+  dpi = 150, 
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+```
+
+```{r, include = FALSE}
+#| label: theme-for-nice-plots
+theme_set(ggthemes::theme_gdocs() + #base_size = 14) +
+  theme(plot.background = 
+        element_rect(fill = 'transparent', colour = NA),
+        #axis.line.x = element_line(color = "black", 
+        #                           linewidth = 0.4),
+        #axis.line.y = element_line(color = "black", 
+        #                           linewidth = 0.4),
+        panel.grid.major = element_line(color = "grey90"),
+        axis.ticks = element_line(color = "black"),
+        #plot.title.position = "plot",
+        #plot.title = element_text(size = 14),
+        panel.background  = 
+          element_rect(fill = 'transparent', colour = "black"),
+        legend.background = 
+          element_rect(fill = 'transparent', colour = NA),
+        legend.key        = 
+          element_rect(fill = 'transparent', colour = NA)
+  ) 
+)
+```
+
+
+## Welcome 👋🏼 
+
+:::: {.columns}
+::: {.column width="45%"}
+
+Thanks for joining to 
+
+::: {style="font-size: 80%;"}
+
+🦘 **[Di](https://www.dicook.org)** is a *Professor of Statistics*. She has more than 30 years of research and teaching of data visualisation, and open source software development.  <br>
+🐨 **[Fonti]()** i <br>
+
+*We are both in Econometrics and Business Statistics, at Monash University.* 
+
+:::
+
+<br>
+
+::: {.fragment}
+
+🧩 Feel free to ask questions any time. 🤔
+
+:::
+
+
+:::
+::: {.column width="5%"}
+
+:::
+::: {.column width="45%"}
+
+::: {.fragment}
+
+::: {style="font-size: 80%;"}
+<br>
+
+🎯 The objectives for today are:
+
+
+:::
+:::
+
+
+:::
+::::
+
+
+# Session 1  {.transition-slide .center-align}
+
+# Introduction {.transition-slide style="align: center;"}
+
+
+## End of session 1 {.center}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
