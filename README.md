@@ -20,8 +20,12 @@ Statistics, and the R Journal. She has served as a Board Member of the
 R Foundation and is currently the co-chair of the Statistical Computing 
 and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
 
-**Presenter**: [Fonti Kar](https://fontikar.github.io), a postdoctoral research fellow at The Australian National University and has a background in evolutionary biology, quantitative biology and open-source tool building. She is interested in the sources of biological variability in plant and animal breeding where she leverages mixed modelling techniques to solve agricultural problems. Fonti is currently working on the Analytics for Australian Grains Industry project and is an advocate for openness, in science and in code. She has developed numerous software to support ecological research and maintains the R package 'austraits'. Fonti is passionate about data science education and empowering others with collaborative coding and package building skills through her committee role on the Statistical Computing 
-and Visualisation Section of the [Statistical Society of Australia](https://www.statsoc.org.au).
+**Presenter**: [Fonti Kar](https://fontikar.github.io), Fonti is a Lecturer at 
+the Monash Business School and has a background in evolutionary ecology, biology
+and open-source tool building. She likes to wrangle big, biodiversity data to aid 
+conservation decisions. Fonti is passionate in the learning new skills in R/Quarto
+and sharing it with others. She is one of the co-chairs for the Statistical Computing 
+and Data Visualisation chapter of the Statistical Society of Australia. 
 
 **Background**: You should have a basic understanding of R, be familiar 
 with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it 
