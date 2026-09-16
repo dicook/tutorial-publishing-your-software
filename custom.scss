@@ -52,6 +52,15 @@ li {
   align: center;
 }
 
+.activity-slide {
+  background-color: #e78c45!important;
+}
+
+.activity-slide h2::before,
+.activity-slide h3::before {
+  content: "✏️ ";
+}
+
 .code_block_short {
   height: 200px;
   border: 1px;
