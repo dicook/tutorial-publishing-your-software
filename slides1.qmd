@@ -95,7 +95,7 @@ Thanks for joining to
 ::: {style="font-size: 80%;"}
 
 🦘 **[Di](https://www.dicook.org)** is a *Professor of Statistics*. She has more than 30 years of research and teaching of data visualisation, and open-source software development. She has published more than 10 papers on software. <br>
-🐨 **[Fonti](https://fontikar.github.io)** is a lecturer in Statistics. She has a background in evolutionary ecology, biology and open-source tool building, and is passionate in the learning new skills in R/Quarto and sharing it with others. <br>
+🐨 **[Fonti](https://fontikar.github.io)** is a *lecturer in Data Analytics and Statistics*. She has a background in evolutionary ecology, biology and open-source tool building, and is passionate in the learning new skills in R/Quarto and sharing it with others. <br>
 
 *We are both in Econometrics and Business Statistics, at Monash University.* 
 
@@ -190,10 +190,13 @@ A standalone software paper is discoverable and citable in ways supplementary ma
 - [The R Journal](https://journal.r-project.org)
 - [Journal of Open Source Software](https://joss.theoj.org)
 
-Many methodology journals have a software section, for example:
+Many domain-specific journals have a software section, for example:
 
 - [Genome Biology](https://link.springer.com/journal/13059/volumes-and-issues/27-1)
-- [Methods of Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/toc/2041210x/current) Fonti ???
+- [Methods of Ecology and Evolution](https://besjournals.onlinelibrary.wiley.com/toc/2041210x/current) 
+- [Royal Society
+Open Science](https://royalsocietypublishing.org/rsos)
+- [Applications in Plant Sciences](https://bsapubs.onlinelibrary.wiley.com/journal/21680450)
 
 ## Comparison
 
