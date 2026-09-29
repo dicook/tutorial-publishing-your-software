@@ -1,5 +1,5 @@
 ---
-title: "WOMBAT 2025 Tutorial"
+title: "WOMBAT 2026 Tutorial"
 subtitle: "Publishing your software"
 author: 
   - name: "Dianne Cook, Fonti Kar"
@@ -46,6 +46,38 @@ options(digits=3,
 ```
 
 # Session 2 {.transition-slide style="align: center;"}
+
+## Practical considerations
+
+- Reproducibility
+- Handling big data, or private data.
+- Handling slow computation
+- Writing a cover letter
+
+## Version controlling your releases
+
+- Semantic versioning
+- DESCRIPTION file 
+- Coordinate Github release
+- NEWS.md or changelog
+
+## Reproducibility
+
+- How can we ensure your software works on different OS/R versions? 
+- GitHub Actions 
+- Rhub testing
+- Get your friends to install and try!
+
+## Handling big data 
+
+- Don't store the data in your R package!
+- Apache .parquets
+- Duckdb
+- Query APIs that are holding your data
+
+*A no
+
+## Statistical Computer and Data Visualisation Award
 
 
 ## End of session 2 {.center}

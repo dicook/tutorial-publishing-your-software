@@ -1,5 +1,5 @@
 ---
-title: "WOMBAT 2025 Tutorial"
+title: "WOMBAT 2026 Tutorial"
 subtitle: "Publishing your software"
 author: 
   - name: "Dianne Cook, Fonti Kar"
@@ -283,16 +283,19 @@ al., 2020) for vector operations, and scikit-learn for modeling, each with its o
 
 ## Key features of the software
 
+- Home for your version-controlled, source code e.g. Github/GitLab
+- Place to download software e.g. CRAN/Bioconductor/r-universe
+- [Unit testing](https://testthat.r-lib.org/)
+- Example datasets
+- Documentation 
+  - Vignettes - "Getting started", "Case study"
+  - Help files for each function
+  - Cheatsheets or video walkthroughs
+- Branding e.g. hexsticker 
+
 ## Design/implementation details
 
 ## Examples/use cases/applications/speed comparisons/benchmarking
-
-## Practical considerations
-
-- Reproducibility
-- Handling big data, or private data.
-- Handling slow computation
-- Writing a cover letter
 
 ## End of session 1 {.center}
 
