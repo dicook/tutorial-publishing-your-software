@@ -394,6 +394,19 @@ Examples are worked into the explanation of the functionality.
 
 :::
 
+## Your turn {.activity-slide}
+
+1. Decide on one of your own software projects to turn into a paper, or use one of our examples
+2. Map out key items of the paper, with a couple of sentences on each of these:
+
+    - motivation
+    - design and implementation
+    - usage
+    - application
+
+
+`r countdown::countdown(10)`
+
 ## End of session 1 {.center}
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
