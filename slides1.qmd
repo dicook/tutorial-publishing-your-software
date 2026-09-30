@@ -232,7 +232,7 @@ Let's compare and contrast articles from these journals.
 
 Have a quick glance through each of these articles, and make some notes:
 
-::: {.f70}
+::: {.f60}
 
 - How long is the article?
 - Sketch the paper structure.
@@ -246,6 +246,7 @@ Have a quick glance through each of these articles, and make some notes:
 - Is there a comparison with other software?
 - Does it provide links to the package source?
 - Is there an overview of how the software is organised?
+- Are there supplementary material, e.g. code and data?
 - Anything else that is interesting to note about the article. <!-- JOSS has open review! -->
 
 :::
@@ -266,36 +267,106 @@ Why did you write the software? What is special and why others should use it? Wh
 
 ## RJ
 
+::: {.f80}
+
 > Since the launch of Sputnik 1 in 1957, the developments in space technology have enabled a fast growth of the amount of satellites placed in orbit around Earth. Such growth has become especially prominent in the last decade, as evidenced by the fact that over a third of the 11,697 satellite launches performed until September 2021 occurred over the last 5 years (United Nations). The number of organizations behind satellite launches has also considerably expanded, and currently includes not only government and military agencies, but also private entities. This is largely due to technological developments, such as miniaturized satellites, that have made the process of placing a satellite on orbit around Earth increasingly accessible (Toorian et al. 2008; Bouwmeester and Guo 2010; Kirillin et al. 2015).
 
+:::
+
 ## JOSS
+
+::: {.f80}
 
 > Satellite remote sensing has become essential for environmental monitoring, agriculture, disastervmanagement, and land use analysis. Modern sensor constellations such as Sentinel-2, Landsat, and PlanetScope produce petabytes of freely available imagery, yet the Python ecosystem for
 processing this data remains fragmented. A typical analysis workflow requires stitching together multiple libraries: rasterio for I/O, GDAL (GDAL/OGR contributors, 2024) for warping, NumPy (Harris et al., 2020) for array math, xarray for labeled dimensions, geopandas (Jordahl et
 al., 2020) for vector operations, and scikit-learn for modeling, each with its own conventions for handling coordinate reference systems, nodata values, affine transforms, and chunked computation.
 
+:::
+
 ## Genome Biology
+
+::: {.f80}
 
 > Precise genomic variant comparison is fundamental to improving sequencing technologies and ensuring accurate variant calling for research and clinical applications. Therefore, it is critical that variant comparison tools, also known as benchmarking tools, provide the best means to identify real differences between variant call sets by minimizing the representation issues that persist across technology platforms and variant calling software. While sequencing technologies have advanced, there has not been much active development on variant benchmarking tools because they require a great deal of care to properly implement and are often viewed as a resource rather than scientific advancement. As technologies improve, the fraction of false positive/negative variants will shift from true addressable errors to benchmarking issues, slowing the pace of technological improvement. This justifies a renewed effort to improve variant comparison tools, as well as the genomic truthsets they rely on.
 
+:::
 
 :::
 
 ## Key features of the software
 
-- Home for your version-controlled, source code e.g. Github/GitLab
-- Place to download software e.g. CRAN/Bioconductor/r-universe
-- [Unit testing](https://testthat.r-lib.org/)
-- Example datasets
-- Documentation 
-  - Vignettes - "Getting started", "Case study"
-  - Help files for each function
-  - Cheatsheets or video walkthroughs
-- Branding e.g. hexsticker 
+::: {.panel-tabset}
+
+## JSS
+
+Very clear: Re-organising and summarising data, shown using tables and illustrations.
+
+:::: {.columns}
+::: {.column}
+![](images/sac1.png)
+:::
+::: {.column}
+![](images/sac2.png)
+:::
+::::
+
+## RJ
+
+## JOSS
+
+## Genome Biology
+
+:::
 
 ## Design/implementation details
 
+::: {.panel-tabset}
+
+## JSS
+
+The paper does not have any design and implementation details. It is very user-facing, providing motivation and how to use it. At most, it explains the conceptualisation that makes usage easier: 
+
+![](images/sac3.png){width=600}
+
+## RJ
+
+## JOSS
+
+## Genome Biology
+
+:::
+
 ## Examples/use cases/applications/speed comparisons/benchmarking
+
+::: {.panel-tabset}
+
+## JSS
+
+Two worked examples, that illustrate reasonably complex data processing.
+
+:::: {.columns}
+::: {.column}
+
+Baseball statistics
+
+![](images/sac5.png)
+:::
+::: {.column}
+
+Spatiotemporal patterns in ozone
+
+![](images/sac4.png){width=400}
+
+:::
+::::
+
+## RJ
+
+## JOSS
+
+## Genome Biology
+
+:::
 
 ## End of session 1 {.center}
 

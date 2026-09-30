@@ -47,12 +47,19 @@ options(digits=3,
 
 # Session 2 {.transition-slide style="align: center;"}
 
-## Practical considerations
+# Supporting your software {.transition-slide style="align: center;"}
 
-- Reproducibility
-- Handling big data, or private data.
-- Handling slow computation
-- Writing a cover letter
+## Overview
+
+- Home for your version-controlled, source code e.g. Github/GitLab
+- Place to download software e.g. CRAN/Bioconductor/r-universe
+- [Unit testing](https://testthat.r-lib.org/)
+- Example datasets
+- Documentation 
+  - Vignettes - "Getting started", "Case study"
+  - Help files for each function
+  - Cheatsheets or video walkthroughs
+- Branding e.g. hexsticker 
 
 ## Version controlling your releases
 
@@ -61,12 +68,38 @@ options(digits=3,
 - Coordinate Github release
 - NEWS.md or changelog
 
+## Portability
+
+How can we ensure your software works on different OS/R versions? 
+
+- Get your friends to install and try!
+- GitHub actions/rhub 
+- Distributing to a software archive, like CRAN
+
+# Publishing best practices {.transition-slide style="align: center;"}
+
+## Practical considerations
+
+- Collaboration: GitHub rep
+- Reproducibility: 
+    - Rmarkdown/Quarto and using templates
+    - big data, or private data.
+    - slow computation
+- Accessibility: alt text
+- Writing a cover letter
+
+## Collaboration
+
+Look at a couple of paper repos (DC)
+
 ## Reproducibility
 
-- How can we ensure your software works on different OS/R versions? 
-- GitHub Actions 
-- Rhub testing
-- Get your friends to install and try!
+Rmarkdown for R Journal: https://rjournal.github.io/rjtools/
+
+Quarto templates: 
+
+- JSS: https://github.com/quarto-journals/jss
+- Other article types: https://quarto.org/docs/journals/formats.html
 
 ## Handling big data 
 
@@ -75,7 +108,7 @@ options(digits=3,
 - Duckdb
 - Query APIs that are holding your data
 
-*A no
+*A note on private data
 
 ## Statistical Computer and Data Visualisation Award
 
