@@ -110,7 +110,7 @@ Quarto templates:
 
 *A note on private data
 
-## Statistical Computer and Data Visualisation Award
+## Statistical Computing and Data Visualisation Award
 
 
 ## End of session 2 {.center}

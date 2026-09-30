@@ -269,7 +269,11 @@ Why did you write the software? What is special and why others should use it? Wh
 
 ::: {.f80}
 
-> Since the launch of Sputnik 1 in 1957, the developments in space technology have enabled a fast growth of the amount of satellites placed in orbit around Earth. Such growth has become especially prominent in the last decade, as evidenced by the fact that over a third of the 11,697 satellite launches performed until September 2021 occurred over the last 5 years (United Nations). The number of organizations behind satellite launches has also considerably expanded, and currently includes not only government and military agencies, but also private entities. This is largely due to technological developments, such as miniaturized satellites, that have made the process of placing a satellite on orbit around Earth increasingly accessible (Toorian et al. 2008; Bouwmeester and Guo 2010; Kirillin et al. 2015).
+> Since the launch of Sputnik 1 in 1957, the developments in space technology have enabled a fast growth of the amount of satellites placed in orbit around Earth. Such growth has become especially prominent in the last decade, as evidenced by the fact that over a third of the 11,697 satellite launches performed until September 2021 occurred over the last 5 years (United Nations)...
+
+> Planning the launch, operation and orbital maneuvers of satellites requires predictions of the trajectory that a satellite will follow along time from a known state vector (a set of parameters that define the position, velocity and acceleration of the satellite at a given instant)...
+
+> We introduce asteRisk, an R package that aims to provide a suite for astrodynamics analysis in R...
 
 :::
 
@@ -312,6 +316,18 @@ Very clear: Re-organising and summarising data, shown using tables and illustrat
 
 ## RJ
 
+::: {.f80}
+
+> To that extent, implementations of some of the most frequently applied orbital propagators are provided, including the SGP4 and SDP4 models (Dong and Chang-yin 2010), as well as a high-precision numerical orbital propagator. Additionally, utilities for reading file formats commonly used to distribute satellite positions (ephemeris) are provided.
+
+> The package also provides tools for the calculation of orbital parameters from the coordinates and velocity of a satellite and vice versa, as well as for the conversion of coordinates between different frames of reference.
+
+The sections of the paper match these components.
+
+Note: *Some of the functionalities provided with asteRisk require large data tables. These are provided in the accessory data package asteRiskData, which is distributed through a drat repository and can be installed by running.*
+
+:::
+
 ## JOSS
 
 ## Genome Biology
@@ -329,6 +345,12 @@ The paper does not have any design and implementation details. It is very user-f
 ![](images/sac3.png){width=600}
 
 ## RJ
+
+Primarily user facing, with few details on design and implementation. 
+
+
+![](images/asterisk2.png){width=800}
+
 
 ## JOSS
 
@@ -361,6 +383,10 @@ Spatiotemporal patterns in ozone
 ::::
 
 ## RJ
+
+Examples are worked into the explanation of the functionality.
+
+![](images/asterisk1.png){width=600}
 
 ## JOSS
 
