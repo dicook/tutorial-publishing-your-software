@@ -375,7 +375,23 @@ Primarily user facing, with few details on design and implementation.
 
 ## JOSS
 
+> **Software design**
+>
+> GeoWombat’s architecture centers on three design  principles:
+>
+> 1. lazy evaluation for scalability,
+> 2. configuration-driven defaults for usability, > and 
+> 3. xarray accessor extensibility.
+
+JOSS requires authors to dedicate an main section of the publication on their design 
+
 ## Genome Biology
+
+Design and implementation details are in the Methods section (after the Conclusions)
+
+> **Overview**
+> 
+> Aardvark prioritizes a sequence-centric approach to variant benchmarking. Thus, the core algorithmic problem is to efficiently compare diploid haplotype sequences that are derived from two sets of input variants: “truth” and “query” sets. To take advantage of parallelism, Aardvark first divides the problem space into sub-regions that are solved independently. For each sub-region, Aardvark will 1) construct optimized truth and query haplotype sequence pairs from the provided variants such that the total edit distance between the pairs is minimized, and 2) score the optimization solution using multiple scoring schemes.
 
 :::
 
@@ -411,7 +427,33 @@ Examples are worked into the explanation of the functionality.
 
 ## JOSS
 
+Very minimal illustration of the machine learning pipelines (data source unknown)
+
+![](images/examples-joss.png){width=40%}
+> The library’s documentation
+includes tutorials covering all major features, and it is installable via pip and conda-forge,
+
+
 ## Genome Biology
+
+Results section illustrates features of Aardvark while comparing it with current tools
+
+:::: {.columns}
+
+::: {.column}
+
+Compare with other tools
+
+![](images/examples-gb1.png){width=80%}
+:::
+
+::: {.column}
+
+Benchmark comparisons across different data types
+
+![](images/examples-gb2.png){width=100%}
+
+:::
 
 :::
 
