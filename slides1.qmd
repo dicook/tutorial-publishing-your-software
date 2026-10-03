@@ -457,6 +457,8 @@ Benchmark comparisons across different data types
 
 :::
 
+:::
+
 ## Your turn {.activity-slide}
 
 1. Decide on one of your own software projects to turn into a paper, or use one of our examples
