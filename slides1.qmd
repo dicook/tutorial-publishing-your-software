@@ -330,7 +330,28 @@ Note: *Some of the functionalities provided with asteRisk require large data tab
 
 ## JOSS
 
+> The library includes
+built-in sensor profiles for Landsat 1–8, Sentinel-1 and Sentinel-2, MODIS, and NAIP that
+automate band naming, scaling, and metadata handling. 
+
+> It supports workflows spanning
+cloud-based data access via SpatioTemporal Asset Catalogs (STAC) from multiple providers,
+a full radiometric processing chain (DN-to-reflectance conversion, atmospheric correction,
+BRDF normalization, and topographic correction), vegetation index computation, raster-vector
+interoperability, Cython-accelerated moving window statistics, scikit-learn-based (Pedregosa et
+al., 2011) machine learning classification, deep learning with PyTorch (Paszke et al., 2019),
+and georeferenced object detection.
+
+> By leveraging Dask’s lazy evaluation and task graphs,
+GeoWombat enables out-of-core processing of raster datasets of any size on commodity
+hardware.
+
 ## Genome Biology
+
+> Aardvark, a variant benchmarking tool that introduces the basepair score to directly compare haplotype sequences, reducing representation biases while allowing for partial credit scoring. The tool also includes the traditional genotype score and supports separate or joint benchmarking of small variants, tandem repeats, and structural variants (<10 kb). 
+
+> Aardvark accepts standard inputs, runs 
+18x faster than hap.py, and is open source
 
 :::
 
