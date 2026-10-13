@@ -47,6 +47,13 @@ options(digits=3,
 
 # Session 2 {.transition-slide style="align: center;"}
 
+# Placing your software in the right context
+
+- Don't reinvent the wheel
+- Stand on the shoulder of others
+- Identify clearly what extra value _your_ software is adding
+
+<!-- Bring in examples from common outlets? -->
 
 ## Your turn {.activity-slide} 
 
@@ -63,6 +70,15 @@ Note down the key differences in :
 
 `r countdown::countdown(10)`
 
+# Guide your reader with a conceptual diagram
+
+- Curse of knowledge, the software may make sense in your mind
+- Hand hold your reader/first time user to understand the: 
+   - problem landscape,
+   - rationale,
+   - design solutions
+   
+<!-- Bring in examples from common outlets? -->
 
 ## Your turn {.activity-slide} 
 
@@ -123,7 +139,7 @@ How can we ensure your software works on different OS/R versions?
 ## Collaboration
 
 Look at a couple of paper repos (DC)
-<!-- Fonti's one but we used Google Docs  -->
+<!-- Fonti's one but we used Google Docs https://github.com/traitecoevo/APCalign-ms  -->
 
 ## Reproducibility
 
@@ -162,10 +178,9 @@ Write a cover letter for your software making sure you cover the following key f
 - Drafted a punchy cover letter for submission
 
 
-
 ## Statistical Computing and Data Visualisation Award 2027
 
-
+Consider [applying](https://statsoc.org.au/Statistical-Computing-and-Visualisation-Award) next year!
 
 
 ## End of session 2 {.center}
