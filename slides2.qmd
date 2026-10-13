@@ -47,6 +47,37 @@ options(digits=3,
 
 # Session 2 {.transition-slide style="align: center;"}
 
+
+## Your turn {.activity-slide} 
+
+Existing tools should be reviewed in your introduction and potentially serve as a springboard/benchmark throughout your paper
+
+Do some market research, can you find other existing software(s) to compare / benchmark with yours?
+
+Note down the key differences in : 
+
+- design
+- implementation
+- usability
+- application
+
+`r countdown::countdown(10)`
+
+
+## Your turn {.activity-slide} 
+
+Sketch/design an figure that illustrates either one of the following: 
+
+- purpose of software i.e. the problem it solves
+- high level workflow of software
+- underlying algorithm 
+- an example use case
+
+`r countdown::countdown(10)`
+
+
+
+
 # Supporting your software {.transition-slide style="align: center;"}
 
 ## Overview
@@ -76,11 +107,12 @@ How can we ensure your software works on different OS/R versions?
 - GitHub actions/rhub 
 - Distributing to a software archive, like CRAN
 
+
 # Publishing best practices {.transition-slide style="align: center;"}
 
 ## Practical considerations
 
-- Collaboration: GitHub rep
+- Collaboration: GitHub repository
 - Reproducibility: 
     - Rmarkdown/Quarto and using templates
     - big data, or private data.
@@ -91,6 +123,7 @@ How can we ensure your software works on different OS/R versions?
 ## Collaboration
 
 Look at a couple of paper repos (DC)
+<!-- Fonti's one but we used Google Docs  -->
 
 ## Reproducibility
 
@@ -110,7 +143,29 @@ Quarto templates:
 
 *A note on private data
 
-## Statistical Computing and Data Visualisation Award
+## Your turn {.activity-slide}
+
+Write a cover letter for your software making sure you cover the following key features: 
+
+- Problem statement i.e. knowledge gap your software is filling
+- Audience, intended user
+- Design features and highlights 
+- Impact of software in problem landscape. Is X easier? more accessible? more accurate? additional insights to Y? 
+
+# Summary
+
+- Compared common software publishing outlets, but there may be more domain-specific ones
+- Outlined key sections of a software publication 
+- Discussed some publishing best practicies
+- Found existing tools to compare with
+- Developed a conceptual diagram to include in your paper
+- Drafted a punchy cover letter for submission
+
+
+
+## Statistical Computing and Data Visualisation Award 2027
+
+
 
 
 ## End of session 2 {.center}

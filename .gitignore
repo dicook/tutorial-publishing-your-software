@@ -51,3 +51,6 @@ rsconnect/
 # Slide outputs
 slides*_files/
 
+# MacOS files
+.DS_Store
+
