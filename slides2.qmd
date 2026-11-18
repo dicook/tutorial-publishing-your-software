@@ -115,37 +115,42 @@ Sketch/design an figure that illustrates either one of the following:
 `r countdown::countdown(10)`
 
 
+# Is your software ready? {.transition-slide style="align: center;"}
 
+## A workable checklist 
 
-# Supporting your software {.transition-slide style="align: center;"}
+**Must haves**
 
-## Overview
-
-- Home for your version-controlled, source code e.g. Github/GitLab
-- Place to download software e.g. CRAN/Bioconductor/r-universe
-- [Unit testing](https://testthat.r-lib.org/)
-- Example datasets
+- A home for your version-controlled, source code e.g. Github/GitLab
+- A location to install software e.g. CRAN/Bioconductor/r-universe
+  - Robust installation on different OS e.g. Github Actions
+- Unit testing
 - Documentation 
   - Vignettes - "Getting started", "Case study"
   - Help files for each function
-  - Cheatsheets or video walkthroughs
-- Branding e.g. hexsticker 
+- Example data to illustrate usage
 
-## Version controlling your releases
+**Nice to have**
 
-- Semantic versioning
-- DESCRIPTION file 
-- Coordinate Github release
-- NEWS.md or changelog
+- Cheatsheet or video walk-through
+- Branding e.g. hex sticker 
 
-## Portability
+## Your turn {.activity-slide} 
 
-How can we ensure your software works on different OS/R versions? 
+**Does your software have these elements?**
 
-- Get your friends to install and try!
-- GitHub actions/rhub 
-- Distributing to a software archive, like CRAN
+Evaluate the readiness of your software for publication
 
+- [ ] A home for your version-controlled, source code e.g. Github/GitLab
+- [ ] A location to install software e.g. CRAN/Bioconductor/r-universe
+  - [ ] Robust installation on different OS e.g. Github Actions
+- [ ] Unit testing
+- [ ] Documentation 
+  - [ ] Vignettes - "Getting started", "Case study"
+  - [ ] Help files for each function
+- [ ] Example data to illustrate usage
+
+`r countdown::countdown(10)`
 
 # Publishing best practices {.transition-slide style="align: center;"}
 
@@ -162,7 +167,6 @@ How can we ensure your software works on different OS/R versions?
 ## Collaboration
 
 Look at a couple of paper repos (DC)
-<!-- Fonti's one but we used Google Docs https://github.com/traitecoevo/APCalign-ms  -->
 
 ## Reproducibility
 
@@ -179,8 +183,6 @@ Quarto templates:
 - Apache .parquets
 - Duckdb
 - Query APIs that are holding your data
-
-*A note on private data
 
 ## Your turn {.activity-slide}
 
