@@ -53,7 +53,30 @@ options(digits=3,
 - Stand on the shoulder of others
 - Identify clearly what extra value _your_ software is adding
 
-<!-- Bring in examples from common outlets? -->
+## Comparison for R Journal article 
+
+::: {style="font-size: 75%;"}
+
+R Journal: [Ayala eet al (2023) asteRisk - Integration and Analysis of Satellite Positional Data in R](https://journal.r-project.org/articles/RJ-2023-023/) 
+
+| Criterion      | `asteRisk`                                                              | [`Skyfield`](https://rhodesmill.org/skyfield/)      | [`NASA GMAT`](https://github.com/nasa/GMAT)                 |
+| -------------- | ----------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| Design         | R-native scientific toolkit                                             | Simple, Python astronomical API                     | Integrated mission-analysis environment                      |
+| Implementation | R, C++ via Rcpp, differential-equation libraries                        | Python with SGP4 and numerical dependencies         | C++ application, GUI and scripting                           |
+| Usability      | Good for experienced R users; requires knowledge of orbital conventions | Relatively accessible for programming users         | Graphical entry point, but complex advanced workflows        |
+| Application    | Research, satellite trajectories, positional data analysis              | Satellite tracking, observation planning, astronomy | Mission design, trajectory optimisation, operational support |
+
+::: 
+
+::: {.fragment}
+
+::: {.callout-tip}
+## Contribution to knowledge gap
+`asteRisk` brings astrodynamics to the R audience. It provides a specialised, _lightweight_ and reproducible alternative to a much larger analytics suite. 
+:::
+
+:::
+
 
 ## Your turn {.activity-slide} 
 

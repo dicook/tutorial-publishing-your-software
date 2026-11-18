@@ -1869,14 +1869,80 @@ Dianne Cook, Fonti Kar
 </div>
 
 </section>
-<section>
 <section id="session-2" class="title-slide slide level1 transition-slide center" style="align: center;">
 <h1>Session 2</h1>
 
 </section>
+
+<section>
+<section id="placing-your-software-in-the-right-context" class="title-slide slide level1 center">
+<h1>Placing your software in the right context</h1>
+<ul>
+<li>Don’t reinvent the wheel</li>
+<li>Stand on the shoulder of others</li>
+<li>Identify clearly what extra value <em>your</em> software is adding</li>
+</ul>
+</section>
+<section id="comparison-for-r-journal-article" class="slide level2">
+<h2>Comparison for R Journal article</h2>
+<div style="font-size: 75%;">
+<p>R Journal: <a href="https://journal.r-project.org/articles/RJ-2023-023/">Ayala eet al (2023) asteRisk - Integration and Analysis of Satellite Positional Data in R</a></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th><code>asteRisk</code></th>
+<th><a href="https://rhodesmill.org/skyfield/"><code>Skyfield</code></a></th>
+<th><a href="https://github.com/nasa/GMAT"><code>NASA GMAT</code></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Design</td>
+<td>R-native scientific toolkit</td>
+<td>Simple, Python astronomical API</td>
+<td>Integrated mission-analysis environment</td>
+</tr>
+<tr class="even">
+<td>Implementation</td>
+<td>R, C++ via Rcpp, differential-equation libraries</td>
+<td>Python with SGP4 and numerical dependencies</td>
+<td>C++ application, GUI and scripting</td>
+</tr>
+<tr class="odd">
+<td>Usability</td>
+<td>Good for experienced R users; requires knowledge of orbital conventions</td>
+<td>Relatively accessible for programming users</td>
+<td>Graphical entry point, but complex advanced workflows</td>
+</tr>
+<tr class="even">
+<td>Application</td>
+<td>Research, satellite trajectories, positional data analysis</td>
+<td>Satellite tracking, observation planning, astronomy</td>
+<td>Mission design, trajectory optimisation, operational support</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Contribution to knowledge gap</strong></p>
+</div>
+<div class="callout-content">
+<p><code>asteRisk</code> brings astrodynamics to the R audience. It provides a specialised, <em>lightweight</em> and reproducible alternative to a much larger analytics suite.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="your-turn" class="slide level2 activity-slide">
 <h2>Your turn</h2>
-<p>Existing tools should be reviewed in your introduction and potential serve as a benchmark throughout your paper</p>
+<p>Existing tools should be reviewed in your introduction and potentially serve as a springboard/benchmark throughout your paper</p>
 <p>Do some market research, can you find other existing software(s) to compare / benchmark with yours?</p>
 <p>Note down the key differences in :</p>
 <ul>
@@ -1885,7 +1951,21 @@ Dianne Cook, Fonti Kar
 <li>usability</li>
 <li>application</li>
 </ul>
-<p><countdown-timer class="countdown" id="timer_276d6df6" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;"></countdown-timer></p>
+<p><countdown-timer class="countdown" id="timer_59886ed1" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;"></countdown-timer></p>
+</section></section>
+<section>
+<section id="guide-your-reader-with-a-conceptual-diagram" class="title-slide slide level1 center">
+<h1>Guide your reader with a conceptual diagram</h1>
+<ul>
+<li>Curse of knowledge, the software may make sense in your mind</li>
+<li>Hand hold your reader/first time user to understand the:
+<ul>
+<li>problem landscape,</li>
+<li>rationale,</li>
+<li>design solutions</li>
+</ul></li>
+</ul>
+<!-- Bring in examples from common outlets? -->
 </section>
 <section id="your-turn-1" class="slide level2 activity-slide">
 <h2>Your turn</h2>
@@ -1896,7 +1976,7 @@ Dianne Cook, Fonti Kar
 <li>underlying algorithm</li>
 <li>an example use case</li>
 </ul>
-<p><countdown-timer class="countdown" id="timer_12452802" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;"></countdown-timer></p>
+<p><countdown-timer class="countdown" id="timer_7a508bf2" minutes="10" seconds="0" update-every="1" tabindex="0" style="right:0;bottom:0;"></countdown-timer></p>
 </section></section>
 <section>
 <section id="supporting-your-software" class="title-slide slide level1 transition-slide center" style="align: center;">
@@ -1958,7 +2038,7 @@ Dianne Cook, Fonti Kar
 </section>
 <section id="collaboration" class="slide level2">
 <h2>Collaboration</h2>
-<p>Look at a couple of paper repos (DC) <!-- Fonti's one but we used Google Docs  --></p>
+<p>Look at a couple of paper repos (DC) <!-- Fonti's one but we used Google Docs https://github.com/traitecoevo/APCalign-ms  --></p>
 </section>
 <section id="reproducibility" class="slide level2">
 <h2>Reproducibility</h2>
@@ -1979,27 +2059,31 @@ Dianne Cook, Fonti Kar
 </ul>
 <p>*A note on private data</p>
 </section>
-<section id="writing-a-cover-letter" class="slide level2">
-<h2>Writing a cover letter</h2>
-<p>Key features:</p>
-</section>
 <section id="your-turn-2" class="slide level2 activity-slide">
 <h2>Your turn</h2>
-<p>Write a cover letter for your software making sure you cover the following:</p>
+<p>Write a cover letter for your software making sure you cover the following key features:</p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Problem statement i.e. knowledge gap your software is filling</li>
+<li>Audience, intended user</li>
+<li>Design features and highlights</li>
+<li>Impact of software in problem landscape. Is X easier? more accessible? more accurate? additional insights to Y?</li>
 </ul>
 </section></section>
 <section>
 <section id="summary" class="title-slide slide level1 center">
 <h1>Summary</h1>
-
+<ul>
+<li>Compared common software publishing outlets, but there may be more domain-specific ones</li>
+<li>Outlined key sections of a software publication</li>
+<li>Discussed some publishing best practicies</li>
+<li>Found existing tools to compare with</li>
+<li>Developed a conceptual diagram to include in your paper</li>
+<li>Drafted a punchy cover letter for submission</li>
+</ul>
 </section>
 <section id="statistical-computing-and-data-visualisation-award-2027" class="slide level2">
 <h2>Statistical Computing and Data Visualisation Award 2027</h2>
+<p>Consider <a href="https://statsoc.org.au/Statistical-Computing-and-Visualisation-Award">applying</a> next year!</p>
 </section>
 <section id="end-of-session-2" class="slide level2 center">
 <h2>End of session 2</h2>
