@@ -135,6 +135,70 @@ Thanks for joining to
 :::
 ::::
 
+# Outline
+
+:::: {.columns}
+::: {.column}
+
+**Session 1: Where, why, how**
+
+- Why publish software as an article?
+
+::: {.f60}
+
+- Value of software papers in academic careers (citations, recognition, tenure/promotion)
+- Benefits for the community (visibility, credibility, discoverability).
+- Why is a paper better than supplementary material for a regular paper?
+- Common outlets for publishing software:
+- How are the articles in different outlets structured?
+- [Your turn: Compare articles]{.monash-blue}
+
+:::
+
+- What goes into an article about software?
+
+::: {.f60}
+
+- Problem statement and motivation
+- Putting your work in the context of existing software
+- Key features of the software
+- Design/implementation details
+- Overview of workflow
+- Examples/use cases/applications/speed comparisons/benchmarking
+- [Your turn: Outline own article]{.monash-blue}
+
+:::
+
+:::
+::: {.column}
+
+**Session 2: Prepare to write your article**
+
+::: {.f70}
+
+- Putting your work in the context of others
+- [Your turn: Lit review]{.monash-blue}
+- Guide your reader with a conceptual diagram
+- [Your turn: Make a sketch]{.monash-blue}
+- Is your software ready?
+- [Your turn: Review checklist for your software]{.monash-blue}
+- Publishing best practices
+
+    - Handling big data, or private data
+    - Handling slow computation/reproducibility
+    - Tips for figures
+    - Reproducibility of your article
+
+- Last details
+
+    - Writing a cover letter
+    - Submission instructions
+
+- [Your turn: Write a cover letter]{.monash-blue}
+
+:::
+:::
+::::
 
 # Session 1  {.transition-slide .center-align}
 
@@ -469,8 +533,9 @@ Benchmark comparisons across different data types
     - usage
     - application
 
+<br> If you would prefer, you could use [ohwhaley](https://fontikar.github.io/ohwhaley/) as your software.
 
-`r countdown::countdown(10)`
+`r countdown::countdown(10, 2)`
 
 ## End of session 1 {.center}
 

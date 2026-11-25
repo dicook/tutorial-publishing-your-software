@@ -47,6 +47,43 @@ options(digits=3,
 
 # Session 2 {.transition-slide style="align: center;"}
 
+# Outline
+
+
+
+:::: {.columns}
+
+::: {.column}
+
+**Prepare to write your article**
+
+- Putting your work in the context of others
+- [Your turn: Lit review]{.monash-blue}
+- Guide your reader with a conceptual diagram
+- [Your turn: Make a sketch]{.monash-blue}
+- Is your software ready?
+- [Your turn: Review checklist for your software]{.monash-blue}
+
+:::
+::: {.column}
+
+- Publishing best practices
+
+    - Handling big data, or private data
+    - Handling slow computation/reproducibility
+    - Tips for figures
+    - Reproducibility of your article
+
+- Last details
+
+    - Writing a cover letter
+    - Submission instructions
+
+- [Your turn: Write a cover letter]{.monash-blue}
+
+:::
+::::
+
 # Placing your software in the right context
 
 - Don't reinvent the wheel
