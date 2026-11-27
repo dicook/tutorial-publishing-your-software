@@ -72,6 +72,7 @@ with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and 
 
 - Your turn: Write a cover letter
 
+## Usage
 
 Copyright: Dianne Cook and Fonti Kar, 2026
 
