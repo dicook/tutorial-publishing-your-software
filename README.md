@@ -29,54 +29,48 @@ with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and 
 
 ## Structure of tutorial
 
-Session 1: Where, why, how
+**Session 1: Where, why, how**
 
-- Setting the scene: Why publish software as an article?
+- Why publish software as an article?
+
     - Value of software papers in academic careers (citations, recognition, tenure/promotion)
     - Benefits for the community (visibility, credibility, discoverability).
     - Why is a paper better than supplementary material for a regular paper?
-    - Common outlets for publishing software: 
-        - Journal of Statistical Software 
-        - the R Journal 
-        - Journal of Open Source Software 
-        - Methods of Ecology and Evolution 
-        - Genome Biology 
-        - Similarities and differences and metrics
-        - Review criteria
-        
-- Writing the article
-    - Problem statement and motivation: why did you write the software? What is special and why others should use it? Why existing tools don't do the job? Putting your work in the context of existing software
+    - Common outlets for publishing software:
+    - How are the articles in different outlets structured?
+    - Your turn: Compare articles
+
+- What goes into an article about software?
+
+    - Problem statement and motivation
+    - Putting your work in the context of existing software
     - Key features of the software
     - Design/implementation details
     - Overview of workflow
     - Examples/use cases/applications/speed comparisons/benchmarking
-    - Handling big data, or private data.
-    - Handling slow computation/reproducibility.
-    - Tips for figures.
-    - Reproducibility of your article.
-    - Writing a cover letter.
-  
-Session 2: Prepare to write your article
+    - Your turn: Outline own article
 
-- Small group activity: Review some examples of articles of published software
-    - Structure
-    - Motivation
-    - Functionality
-    - Usefulness in getting started
-    
-- Preparing Your Software for Publication
-    - Open source practices
-        - Version control, zenodo/DOI, GitHub releases  
-    - Minimum standards: clear documentation, license, installation instructions.
-    - Writing a good README
-    - Tests and reproducibility: automated testing, example datasets, vignettes/tutorials.
-    - The submission process (journal-specific requirements)
-    - Responding to reviewer comments—common issues (docs not clear, lack of tests).
-    
-- Hands-on activity: 
-    - Draft a short abstract for your own software.
-    - Sketch an outline for an article on your own software.
-    - Identify a target journal.
+**Session 2: Prepare to write your article**
+
+- Putting your work in the context of others
+- Your turn: Lit review
+- Guide your reader with a conceptual diagram
+- Your turn: Make a sketch
+- Is your software ready?
+- Your turn: Review checklist for your software
+- Publishing best practices
+
+    - Handling big data, or private data
+    - Handling slow computation/reproducibility
+    - Tips for figures
+    - Reproducibility of your article
+
+- Last details
+
+    - Writing a cover letter
+    - Submission instructions
+
+- Your turn: Write a cover letter
 
 
 Copyright: Dianne Cook and Fonti Kar, 2026
