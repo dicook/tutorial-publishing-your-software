@@ -27,7 +27,7 @@ and Data Visualisation chapter of the Statistical Society of Australia.
 **Background**: You should have a basic understanding of R, be familiar 
 with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and made it available on a public archive such as [CRAN](https://cran.r-project.org). This would be a good tutorial for research students to join. 
 
-** What to bring**: Your laptop, pencil and paper
+**What to bring**: Your laptop, pencil and paper
 
 ## Structure of tutorial
 
