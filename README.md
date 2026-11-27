@@ -31,7 +31,7 @@ with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and 
 
 ## Structure of tutorial
 
-**Session 1: Where, why, how**
+**Session 1: Where, why, how** ([slides](https://dicook.github.io/tutorial-publishing-your-software/slides1.html))
 
 - Why publish software as an article?
 
@@ -52,7 +52,7 @@ with [Advanced R](https://adv-r.hadley.nz). Ideally, you have packaged code and 
     - Examples/use cases/applications/speed comparisons/benchmarking
     - Your turn: Outline own article
 
-**Session 2: Prepare to write your article**
+**Session 2: Prepare to write your article** ([slides](https://dicook.github.io/tutorial-publishing-your-software/slides2.html))
 
 - Putting your work in the context of others
 - Your turn: Lit review
