@@ -288,7 +288,7 @@ Let's [compare and contrast](https://docs.google.com/spreadsheets/d/1MFhmUNudJc9
 ::: {.f70}
 
 - JSS: [Wickham (2011) The Split-Apply-Combine Strategy for Data Analysis](https://www.jstatsoft.org/article/view/v040i01)
-- R Journal: [Ayala eet al (2023) asteRisk - Integration and Analysis of Satellite Positional Data in R](https://journal.r-project.org/articles/RJ-2023-023/)
+- R Journal: [Ayala et al (2023) asteRisk - Integration and Analysis of Satellite Positional Data in R](https://journal.r-project.org/articles/RJ-2023-023/)
 - JOSS: [Graesser et al (2026) GeoWombat: Scalable geospatial and remote sensing analysis in Python](https://joss.theoj.org/papers/10.21105/joss.10812)
 - Genome Biology: [Holt at al (2026) Aardvark: sifting through differences in a mound of variants](https://link.springer.com/article/10.1186/s13059-026-04165-0)
 
