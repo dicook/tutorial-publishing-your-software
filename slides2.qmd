@@ -24,7 +24,7 @@ title-slide-attributes:
   data-background-size: "auto 48%"
   data-background-position: "right 3% bottom 10%"
   data-background-opacity: "1"
-footer: "[https://numbat-tutorials.github.io/tutorial-publishing-your-software](https://numbat-tutorials.github.io/tutorial-publishing-your-software)"
+footer: "[https://dicook.github.io/tutorial-publishing-your-software](https://dicook.github.io/tutorial-publishing-your-software)"
 ---
 
 ```{r}
