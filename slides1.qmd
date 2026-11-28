@@ -20,7 +20,10 @@ message: false
 highlight-style: pygments
 title-slide-attributes:
   data-background-color: "#006dae"
-  data-background-opacity: "0.5"
+  data-background-image: "images/wombat.png"
+  data-background-size: "auto 48%"
+  data-background-position: "right 3% bottom 10%"
+  data-background-opacity: "1"
 footer: "[https://numbat-tutorials.github.io/tutorial-publishing-your-software](https://numbat-tutorials.github.io/tutorial-publishing-your-software)"
 ---
 
@@ -103,11 +106,8 @@ Thanks for joining to
 
 <br>
 
-::: {.fragment}
 
 🧩 Feel free to ask questions any time. 🤔
-
-:::
 
 
 :::
@@ -116,7 +116,6 @@ Thanks for joining to
 :::
 ::: {.column width="45%"}
 
-::: {.fragment}
 
 ::: {style="font-size: 80%;"}
 <br>
@@ -129,8 +128,6 @@ Thanks for joining to
 - draft an paper on your own software
 
 :::
-:::
-
 
 :::
 ::::
@@ -172,6 +169,8 @@ Thanks for joining to
 :::
 ::: {.column}
 
+::: {.fragment}
+ 
 **Session 2: Prepare to write your article**
 
 ::: {.f70}
@@ -195,7 +194,7 @@ Thanks for joining to
     - Submission instructions
 
 - [Your turn: Write a cover letter]{.monash-blue}
-
+:::
 :::
 :::
 ::::
@@ -204,15 +203,58 @@ Thanks for joining to
 
 # Why publish software as an article? {.transition-slide style="align: center;"}
 
+![](images/photos/books.jpg){fig-alt="Aisles of wooden library shelves filled with academic books." fig-align="center"}
+
+::: {.photo-credit}
+Photo: [Mertbiol](https://commons.wikimedia.org/wiki/File:Books_on_library_shelves,_Davison_Building,_Royal_Holloway_University_of_London,_Surrey_-_September_2026_-_01.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons
+:::
+
 ## What is a software article?
 
 It is an academic publication whose primary subject is a piece of software. Instead of reporting a scientific finding, the paper typically describes: 
+
+:::: {.columns}
+::: {.column width="60%"}
 
 - **What the software does**: the problem it solves and how it fits into the existing landscape of tools.
 - **How it works**: the underlying methods, algorithms, or statistical models it implements.
 - **How to use it**: installation, basic API/interface, and often a worked example or application.
 - **Why it matters**: the gap it fills, who the intended users are, and how it differs from alternatives.
 - **Availability**: where the code lives (e.g., CRAN, GitHub), license, and how to cite it.
+
+:::
+::: {.column width="40%"}
+
+::: {.flow role="img" aria-label="Flow diagram. Software on GitHub or CRAN leads to a software article, which is indexed, peer reviewed and has a DOI. The article leads to users who find, trust and cite the software."}
+
+::: {.flow-box}
+**Software**
+
+[GitHub / CRAN]{.small}
+:::
+
+::: {.flow-arrow}
+↓
+:::
+
+::: {.flow-box}
+**Software article**
+
+[indexed, peer reviewed, DOI]{.small}
+:::
+
+::: {.flow-arrow}
+↓
+:::
+
+::: {.flow-box}
+**Users find, trust and cite your software**
+:::
+
+:::
+
+:::
+::::
 
 ## Benefits to the community
 
@@ -318,6 +360,12 @@ Have a quick glance through each of these articles, and make some notes:
 `r countdown::countdown(10, 21)`
 
 # What goes into an article about software? {.transition-slide style="align: center;"}
+
+![](images/photos/blueprint.jpg){fig-alt="An old hand-coloured architectural elevation drawing of a long, ornate building." fig-align="center"}
+
+::: {.photo-credit}
+Photo: [Silvio Danini](https://commons.wikimedia.org/wiki/File:A.V.Kozolov_Blueprints.jpg), [public domain](https://creativecommons.org/publicdomain/mark/1.0/), via Wikimedia Commons
+:::
 
 ## Problem statement and motivation
 
@@ -525,7 +573,7 @@ Benchmark comparisons across different data types
 
 ## Your turn {.activity-slide}
 
-1. Decide on one of your own software projects to turn into a paper, or use one of our examples
+1. Decide on one of your own software projects to turn into a paper
 2. Map out key items of the paper, with a couple of sentences on each of these:
 
     - motivation
@@ -533,11 +581,13 @@ Benchmark comparisons across different data types
     - usage
     - application
 
-<br> If you would prefer, you could use [ohwhaley](https://fontikar.github.io/ohwhaley/) as your software.
+<br> If you would prefer, you could use [ohwhaley](https://fontikar.github.io/ohwhaley/) or [datasauRus](https://jumpingrivers.github.io/datasauRus/) as your software.
 
 `r countdown::countdown(10, 2)`
 
 ## End of session 1 {.center}
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+![](images/wombat.png){fig-alt="WOMBAT 2026 logo: a blue wombat with an orange line chart glowing along the ground." fig-align="center" width=25%}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 

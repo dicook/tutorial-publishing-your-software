@@ -72,3 +72,114 @@ li {
 }
 
 .monash-blue, .monash-blue code, .monash-blue a { color: #006dae!important; }
+/* Simple flow diagrams built from divs */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+  margin: 0.5em auto;
+}
+
+.flow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+}
+
+.flow p {
+  margin: 0;
+}
+
+.flow-box {
+  background-color: #006dae;
+  color: white;
+  border-radius: 12px;
+  padding: 0.6em 1em;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+
+.flow-box .small {
+  font-size: 80%;
+  opacity: 0.9;
+}
+
+.flow-arrow {
+  color: #e78c45;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.flow-note {
+  color: #e78c45;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Photos and credits on transition slides */
+.transition-slide figure {
+  margin: 0.5em auto 0.2em;
+}
+
+.transition-slide img {
+  max-height: 460px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.photo-credit {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+}
+
+.photo-credit a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Keep title text left and clear of the wombat logo on title slides */
+#title-slide {
+  text-align: left;
+  padding-left: 5%;
+}
+
+#title-slide .quarto-title-authors {
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+#title-slide .quarto-title-author {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#title-slide .quarto-title-author-name,
+#title-slide .quarto-title-affiliation {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+/* Larger variant for diagrams with only a few boxes */
+.flow-lg .flow-box {
+  font-size: 3rem;
+}
+
+.flow-lg .flow-arrow {
+  font-size: 4.5rem;
+}
+
+.flow-lg .flow-note {
+  font-size: 2.4rem;
+}

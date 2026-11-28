@@ -20,7 +20,10 @@ message: false
 highlight-style: pygments
 title-slide-attributes:
   data-background-color: "#006dae"
-  data-background-opacity: "0.5"
+  data-background-image: "images/wombat.png"
+  data-background-size: "auto 48%"
+  data-background-position: "right 3% bottom 10%"
+  data-background-opacity: "1"
 footer: "[https://numbat-tutorials.github.io/tutorial-publishing-your-software](https://numbat-tutorials.github.io/tutorial-publishing-your-software)"
 ---
 
@@ -244,6 +247,12 @@ Sketch/design an figure that illustrates either one of the following:
 
 # Is your software ready? {.transition-slide style="align: center;"}
 
+![](images/photos/checklist.jpg){fig-alt="A desk organiser full of pens, markers and glue next to a framed checklist with some items ticked." fig-align="center"}
+
+::: {.photo-credit}
+Photo: [Personal Creations](https://commons.wikimedia.org/wiki/File:Tote_organizer_with_glue_pens_pencils_chalk_and_checklist_(21312803141).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons
+:::
+
 ## A workable checklist 
 
 **Must haves**
@@ -283,19 +292,11 @@ Evaluate the readiness of your software for publication
 
 # Publishing best practices {.transition-slide style="align: center;"}
 
-<!--
-## Consider these
+![](images/photos/coding.jpg){fig-alt="Close-up of a laptop screen showing syntax-highlighted JavaScript code in a text editor." fig-align="center"}
 
-- Collaboration: GitHub repository
-- Reproducibility: 
-    - Rmarkdown/Quarto and using templates
-    - big data, or private data.
-    - slow computation
-- Figure and table captions
-- Accessibility: alt text
-- Writing a cover letter
-- What files do you submit?
--->
+::: {.photo-credit}
+Photo: [Marc Mueller](https://commons.wikimedia.org/wiki/File:Macro_laptop_coding_(Unsplash).jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons
+:::
 
 ## Collaboration
 
@@ -315,6 +316,44 @@ Ask yourself:
 ## Reproducibility
 
 When you use Quarto (or it's precursor Rmarkdown) code is executed when the document is rendered, so results, tables, and figures are generated from the source rather than pasted in. If the data or code changes, you re-render and everything updates. This is especially valuable for articles about software, where examples must actually work.
+
+::: {.flow .flow-lg role="img" aria-label="Flow diagram. Data, code and text in a Quarto file are rendered to produce the article as PDF or HTML. When the data or code changes, render again."}
+
+::: {.flow-row}
+
+::: {.flow-box}
+**Data, code + text**
+
+[.qmd]{.small}
+:::
+
+::: {.flow-arrow}
+→
+:::
+
+::: {.flow-box}
+**Render**
+
+[Quarto]{.small}
+:::
+
+::: {.flow-arrow}
+→
+:::
+
+::: {.flow-box}
+**Article**
+
+[PDF / HTML]{.small}
+:::
+
+:::
+
+::: {.flow-note}
+Data or code changes? Render again and everything updates.
+:::
+
+:::
 
 **Resources**:
 
@@ -428,6 +467,12 @@ Alt text describes the plot for vision-impaired readers
 
 # Last steps {.transition-slide style="align: center;"}
 
+![](images/photos/writing.jpg){fig-alt="A person holding a pen over an open handwritten notebook on a desk beside a laptop." fig-align="center"}
+
+::: {.photo-credit}
+Photo: [Shixart1985](https://commons.wikimedia.org/wiki/File:Person_writing_in_a_notebook_while_sitting_at_a_desk.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons
+:::
+
 ## Cover letter
 
 A cover letter is a short pitch to the editor. It should help them decide quickly whether your paper fits the journal and is worth sending to reviewers. Aim for one page. The structure is:
@@ -472,6 +517,44 @@ Sincerely,
 3. When the paper is accepted, they will ask for figure files, generation files like `tex`, and supplementary files it's good form to include `qmd` or `Rmd` as supplementary material, in addition to the ones provided earlier.
 
 Example: [R Journal](https://journal.r-project.org/submissions.html)
+
+::: {.flow .flow-row role="img" aria-label="Flow diagram of the submission process. Check the journal instructions, then submit a PDF, cover letter, code and data. After review and acceptance, send figure files, source files and the qmd or Rmd."}
+
+::: {.flow-box}
+**Check journal instructions**
+:::
+
+::: {.flow-arrow}
+→
+:::
+
+::: {.flow-box}
+**Submit**
+
+[PDF + cover letter\
+code + data]{.small}
+:::
+
+::: {.flow-arrow}
+→
+:::
+
+::: {.flow-box}
+**Review**
+:::
+
+::: {.flow-arrow}
+→
+:::
+
+::: {.flow-box}
+**Accepted**
+
+[figures + source files\
+qmd / Rmd]{.small}
+:::
+
+:::
 
 # Summary
 
@@ -523,4 +606,6 @@ Consider [applying or encouraging students to apply](https://statsoc.org.au/Stat
 
 ## End of session 2 {.center}
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+![](images/wombat.png){fig-alt="WOMBAT 2026 logo: a blue wombat with an orange line chart glowing along the ground." fig-align="center" width=25%}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
